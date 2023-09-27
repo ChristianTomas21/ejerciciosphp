@@ -5,8 +5,9 @@
     </head>
     <body>
         <?php
-            $Variable = "Hola, soy un script de PHP!";
-            echo $Variable;
+            $var1 = "Hola,";
+            $var2 = "soy un script de PHP!";
+            echo $var1 . "<br>" . $var2;
         ?>
     </body>
 </html>
