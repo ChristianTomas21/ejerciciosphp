@@ -7,8 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $num2 = $_POST["num2"];
 }
 
-$suma = $num1 + $num2;
+$division = $num1 / $num2;
 
 echo "Número 1: " . $num1 . "<br>";
 echo "Número 2: " . $num2 . "<br>";
-echo "Suma: " . $suma;
+
+echo "Suma: " . $division;
