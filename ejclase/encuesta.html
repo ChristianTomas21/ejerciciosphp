@@ -35,11 +35,32 @@
             <option value="AC Milan">AC Milan</option>
         </select>
 
+        <h3>Menu favorito - Lista seleccion multiple</h3>
+        <select name="smenu[]" multiple required>
+            <option value="Codillo">Codillo Asado</option>
+            <option value="Lasaña">Lasaña</option>
+            <option value="Fabada">Fabada</option>
+            <option value="Cachopo">Cachopo</option>
+        </select>
+        <br><br><br>
+        
 
-        <br><br>
+
+        <br><br><br>
         <input type="submit" name="ienviar" value="Enviar encuesta">
     </form>
-
+    <div>
+        <form action="showfile.php" method="post" enctype="multipart/form-data">
+            <label for="ifile">Selecciona un fichero a subir</label>
+            <br>
+            <input type="file" name="myfile" id="ifile">
+            <br>
+            <br>
+            <label for="ifichero">Click aqui para subir fichero</label>
+            <br>
+            <input type="submit" name="sfichero" value="Subir fichero" id="ifichero">
+        </form>
+    </div>
 </body>
 
 </html>
